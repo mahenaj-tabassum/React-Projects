@@ -30,7 +30,7 @@ const Accordion = () => {
     // Concept: Find the position of the clicked accordion's ID in the array.
     const findIndexOfCurrentId = copyOfMultiSelection.indexOf(getCurrentId);
 
-    // Toggle teh clicked accordion's id
+    // Toggle the clicked accordion's id
 
     // Not in the array? Add it
     if (findIndexOfCurrentId === -1) copyOfMultiSelection.push(getCurrentId);
@@ -38,9 +38,7 @@ const Accordion = () => {
     else copyOfMultiSelection.splice(findIndexOfCurrentId, 1);
 
     setMultiSelect(copyOfMultiSelection);
-    console.log(findIndexOfCurrentId);
   };
-  console.log(selected, multiSelect);
 
   const handleModeChange = () => {
     const nextMode = !enableMultiSelection;
