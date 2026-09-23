@@ -1,16 +1,113 @@
-# React + Vite
+# React 5 Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of **5 beginner-friendly React projects** built while learning React fundamentals. Each project focuses on a different concept such as state management, event handling, conditional rendering, API fetching, and reusable component design.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **https://react-projects-5.netlify.app/**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Projects Included
 
-## Expanding the ESLint configuration
+### 1. Accordion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+An interactive FAQ-style accordion where users can expand and collapse content.
+
+**Concepts Practiced**
+
+- `useState`
+- Conditional Rendering
+- Event Handling
+- Reusable Components
+
+---
+
+### 2. Random Color Generator
+
+Generate random colors in both **HEX** and **RGB** formats with a single click.
+
+**Concepts Practiced**
+
+- State Updates
+- Random Number Generation
+- Dynamic Styling
+
+---
+
+### 3. Star Rating
+
+A reusable star rating component with hover effects and click-to-select functionality.
+
+**Concepts Practiced**
+
+- Props
+- Hover State
+- Dynamic Rendering
+
+---
+
+### 4. Image Slider
+
+A responsive image carousel with previous and next navigation controls.
+
+**Concepts Practiced**
+
+- Array Indexing
+- Url Fetching
+- Slide Logic
+
+---
+
+### 5. Load More Data
+
+Fetches product data from an API and loads additional items when the **Load More** button is clicked.
+
+**Concepts Practiced**
+
+- `useEffect`
+- API Fetching
+- Loading States
+- Pagination-like Behavior
+
+---
+
+## ⚛️ React Concepts Covered
+
+Through these projects, I practiced:
+
+- React Components
+- `useState`
+- `useEffect`
+- Props
+- Event Handling
+- Conditional Rendering
+- Dynamic Styling
+- API Fetching
+- Loading States
+- List Rendering with `map()`
+- Reusable Component Design
+
+---
+
+## 📂 Project Structure
+
+```text
+React_5-Projects/
+├── src
+    ├── components
+        ├── Accordion/
+        ├── Random-Color-Generator/
+        ├── Star-Rating/
+        ├── Image-Slider/
+        ├── Load-More-Data/
+        └── README.md
+```
+
+---
+
+## 👩‍💻 Author
+
+**Mahenaj Tabassum**
+
+- Live Demo: https://react-projects-5.netlify.app/
