@@ -11,7 +11,7 @@ const ProductCard = ({ item }) => {
         <img
           src={thumbnail}
           alt={title}
-          className="h-[100%] object-cover"
+          className="h-full object-cover"
           loading="lazy"
         />
       </div>
